@@ -2,9 +2,9 @@
 Documenting things I learn.
 
 ## Table of contents
-- [Web](#web)
+- [Web](#web-development)
   * [Nginx](#nginx)
-## Web
+## Web development
 
 ### Nginx
 Why should one use Nginx?

@@ -2,7 +2,7 @@
 Documenting things I learn.
 
 ## Table of contents
-- [Web](#web-development)
+- [Web development](#web-development)
   * [Nginx](#nginx)
 ## Web development
 

@@ -4,6 +4,8 @@ Documenting things I have learned.
 ## Table of contents
 - [Web development](#web-development)
   * [Nginx](#nginx)
+- [Docker](#docker)
+  * [Alpine images](#alpine-images)
 ## Web development
 
 ### Nginx

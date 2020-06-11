@@ -1,6 +1,10 @@
 # Today I learned
-Documenting things I learn. 
+Documenting things I learn.
 
+## Table of contents
+- [Today I learned](#today-i-learned)
+  * [Web](#web)
+    + [Nginx](#nginx)
 ## Web
 
 ### Nginx

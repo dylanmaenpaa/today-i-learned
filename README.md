@@ -1,4 +1,4 @@
-# today-i-learned
+# Today I learned
 Documenting things I learn. 
 
 ## Web

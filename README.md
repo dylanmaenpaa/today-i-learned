@@ -20,4 +20,4 @@ Why should one use Nginx?
 ## Docker
 
 ### Alpine images
-By removing unnecessary dependencies images can be much smaller in size. Smaller size gives faster builds.
+By removing unnecessary dependencies, the images can be much smaller in size. Smaller size gives faster builds.

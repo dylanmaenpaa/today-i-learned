@@ -14,3 +14,8 @@ Why should one use Nginx?
 * **gzip compression**, handle this outside of the application.
 * **Performance benefits**, by letting Nginx handle SSL termination and gzip compression, performance benefits can be acquired. Caching can also be done in Nginx.
 * **Reduce application code complexity**, instead of handling e.g. SSL termination and gzip compression inside the application code itself, we reduce the application code complexity.
+
+## Docker
+
+### Alpine images
+By removing unnecessary dependencies images can be much smaller in size. Smaller size gives faster builds.

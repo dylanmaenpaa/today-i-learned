@@ -1,5 +1,5 @@
 # Today I learned
-Documenting things I learn.
+Documenting things I have learned.
 
 ## Table of contents
 - [Web development](#web-development)

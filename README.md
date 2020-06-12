@@ -6,6 +6,10 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Nginx](#nginx)
 - [Docker](#docker)
   * [Alpine images](#alpine-images)
+- [Devops](#devops)
+  * [Continous integration](#continous-integration)
+  * [Continous delivery](#continous-delivery)
+  * [Continous deployment](#continous-deployment)
 ## Web development
 
 ### Nginx

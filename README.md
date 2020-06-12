@@ -21,3 +21,14 @@ Why should one use Nginx?
 
 ### Alpine images
 By removing unnecessary dependencies, the images can be much smaller in size. Smaller size gives faster builds.
+
+## Devops
+
+### Continous integration
+When changes are pushed to the main branch, a build happens. Tests are then ran to ensure the new changes are valid.
+
+### Continous delivery
+Continous delivery brings an addition to continous integration. By automating the release process, you can easily deploy an application by clicking a button.
+
+### Continous deployment
+Continous deployment brings an addition to continous delivery. The deployment is done automatically without having to press a button as long as the prerequisites such as tests are ok.

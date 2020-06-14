@@ -25,7 +25,7 @@ Why should one use Nginx?
 ## Docker
 
 ### Alpine images
-By removing unnecessary dependencies, the images can be much smaller in size. Smaller size gives faster builds.
+By removing unnecessary dependencies, the images can be much smaller in size and reduce security threats. Smaller size also might give faster builds. 
 
 ### Non-root user
 Run the docker daemon as non-root user to mitigate potential vulnerable security risks. One risk is that if the user running the daemon root, malicious code might enable root access to the host machine.

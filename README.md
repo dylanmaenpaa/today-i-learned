@@ -6,6 +6,7 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Nginx](#nginx)
 - [Docker](#docker)
   * [Alpine images](#alpine-images)
+  * [Non-root user](#non-root-user)
 - [Devops](#devops)
   * [Continous integration](#continous-integration)
   * [Continous delivery](#continous-delivery)
@@ -25,6 +26,9 @@ Why should one use Nginx?
 
 ### Alpine images
 By removing unnecessary dependencies, the images can be much smaller in size. Smaller size gives faster builds.
+
+### Non-root user
+Run the docker daemon as non-root user to mitigate potential vulnerable security risks. One risk is that if the user running the daemon root, malicious code might enable root access to the host machine.
 
 ## Devops
 

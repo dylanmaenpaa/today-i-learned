@@ -47,8 +47,8 @@ Continous deployment brings an addition to continous delivery. The deployment is
 ## Build systems
 
 ### Cmake
-Cmake is a build system generator, it can generate e.g. make files. It is a valuable tool since make files are OS dependent, by using Cmake native make files can be generated.
+Cmake is a build system generator, it can generate e.g. Makefiles. It is a valuable tool since make files are OS dependent, by using Cmake native Makefiles can be generated.
 
-### Make
-Make gives directives on how to compile and link files. It also keeps track on dependencies, thus when using Make again, only neccessary build steps are made. This can greatly reduce the build time.
+### Makefiles
+Makefiles gives directives on how to compile and link files. It also keeps track on dependencies, thus when running Makefiles again, only neccessary build steps are made. This can greatly reduce the build time.
 

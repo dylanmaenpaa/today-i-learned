@@ -11,6 +11,9 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Continous integration](#continous-integration)
   * [Continous delivery](#continous-delivery)
   * [Continous deployment](#continous-deployment)
+- [Build systems](#build-systems)
+  * [Cmake](#cmake)
+  * [Make](#make)
 ## Web development
 
 ### Nginx

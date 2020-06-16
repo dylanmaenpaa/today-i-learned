@@ -40,3 +40,12 @@ Continous delivery brings an addition to continous integration. By automating th
 
 ### Continous deployment
 Continous deployment brings an addition to continous delivery. The deployment is done automatically without having to press a button as long as the prerequisites such as tests are ok.
+
+## Build systems
+
+### Cmake
+Cmake is a build system generator, it can generate e.g. make files. It is a valuable tool since make files are OS dependent, by using Cmake native make files can be generated.
+
+### Make
+Make gives directives on how to compile and link files. It also keeps track on dependencies, thus when using Make again, only neccessary build steps are made. This can greatly reduce the build time.
+

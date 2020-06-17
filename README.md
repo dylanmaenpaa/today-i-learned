@@ -13,7 +13,9 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Continous deployment](#continous-deployment)
 - [Build systems](#build-systems)
   * [Cmake](#cmake)
-  * [Make](#make)
+  * [Makefiles](#makefiles)
+- [Go](#go)
+  * [Single standalone binary](#single-standalone-binary)
 ## Web development
 
 ### Nginx
@@ -52,3 +54,7 @@ Cmake is a build system generator, it can generate e.g. Makefiles. It is a valua
 ### Makefiles
 Makefiles gives directives on how to compile and link files. It also keeps track on dependencies, thus when running Makefiles again, only neccessary build steps are made. This can greatly reduce the build time.
 
+## Go
+
+### Single standalone binary
+A Go project usually compiles down to one single standalone binary, making it easy to deploy directly.

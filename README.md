@@ -16,6 +16,8 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Makefiles](#makefiles)
 - [Go](#go)
   * [Single standalone binary](#single-standalone-binary)
+- [General](#general)
+  * [Checksums](#checksums)
 ## Web development
 
 ### Nginx
@@ -58,3 +60,9 @@ Makefiles gives directives on how to compile and link files. It also keeps track
 
 ### Single standalone binary
 A Go project usually compiles down to one single standalone binary, making it easy to deploy directly.
+
+## General
+Knowledge that doesn't need an own subtitle yet.
+
+### Checksums
+Small size data to verify if e.g. a file is not broken (which might happen during transmission or storage). A checksum function can be used, which can be like a hash function.

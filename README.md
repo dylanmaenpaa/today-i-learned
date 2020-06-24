@@ -2,6 +2,8 @@
 Documenting things I have learned. In this document I strive to write down knowledge in short and concise sentences.
 
 ## Table of contents
+- [Unix](#unix)
+  * [Comparing files](#comparing-files)
 - [Web development](#web-development)
   * [Nginx](#nginx)
 - [Docker](#docker)
@@ -18,6 +20,12 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Single standalone binary](#single-standalone-binary)
 - [General](#general)
   * [Checksums](#checksums)
+  
+## Unix
+
+### Comparing files
+Check if files are bit-exact using **cmp**. Check if files differ line by line using diff. Use -y flag to get the files output side by side in the terminal.
+
 ## Web development
 
 ### Nginx

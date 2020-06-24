@@ -48,7 +48,7 @@ Run the docker daemon as non-root user to mitigate security risks. One risk is t
 ## Devops
 
 ### Continous integration
-When changes are pushed to the main branch, a build happens. Tests are then ran to ensure the new changes are valid.
+When changes are pushed to the main branch, a build happens. Tests are then ran to ensure that the new changes are valid.
 
 ### Continous delivery
 Continous delivery brings an addition to continous integration. By automating the release process, you can easily deploy an application by clicking a button.

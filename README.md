@@ -24,7 +24,7 @@ Documenting things I have learned. In this document I strive to write down knowl
 ## Unix
 
 ### Comparing files
-Check if files are bit-exact using **cmp**. Check if files differ line by line using diff. For diff use the -y flag to get the lines output side by side in the terminal.
+Check if files are bit-exact using **cmp**. Check if files differ line by line using **diff**. For diff use the -y flag to get the lines output side by side in the terminal.
 
 ## Web development
 

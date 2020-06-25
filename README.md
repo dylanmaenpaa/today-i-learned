@@ -16,6 +16,8 @@ Documenting things I have learned. In this document I strive to write down knowl
 - [Build systems](#build-systems)
   * [Cmake](#cmake)
   * [Makefiles](#makefiles)
+- [C/C++](#c-c--)
+  * [Portability between platforms](#portability-between-platforms)
 - [Go](#go)
   * [Single standalone binary](#single-standalone-binary)
 - [General](#general)
@@ -63,6 +65,11 @@ Cmake is a build system generator, it can generate e.g. Makefiles. It is a valua
 
 ### Makefiles
 Makefiles gives directives on how to compile and link files. It also keeps track on dependencies, thus when running Makefiles again, only neccessary build steps are made. This can greatly reduce the build time.
+
+## C/C++
+
+### Portability between platforms
+Use datatypes such as int32_t from stdint.h/cstdint.h to ensure that the code is platform independent. This makes the datatypes have the same size. E.g. an unsigned long might have 8 bytes size in a 64-bit system, whereas unsigned long in a 32-bit system might only be 4 bytes. Using the datatype int32_t ensures that it is 4 bytes long on both platforms.
 
 ## Go
 

@@ -69,7 +69,7 @@ Makefiles gives directives on how to compile and link files. It also keeps track
 ## C/C++
 
 ### Portability between platforms
-Use datatypes such as int32_t from stdint.h/cstdint.h to ensure that the code is platform independent. This makes the datatypes have the same size. E.g. an unsigned long might have 8 bytes size in a 64-bit system, whereas unsigned long in a 32-bit system might only be 4 bytes. Using the datatype int32_t ensures that it is 4 bytes long on both platforms.
+Use datatypes such as `int32_t` from stdint.h/cstdint.h to ensure that the code is platform independent. This makes the datatypes have the same size. E.g. the size of `unsigned long` might be 8 bytes in a 64-bit system, whereas `unsigned long` in a 32-bit system might only be 4 bytes. Using `int32_t` ensures that the size is 4 bytes on both platforms.
 
 ## Go
 

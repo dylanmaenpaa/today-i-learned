@@ -87,9 +87,12 @@ Knowledge that doesn't need an own subtitle yet.
 Small size data to verify if e.g. a file is not broken (which might happen during transmission or storage). A checksum function can be used, which can be like a hash function.
 
 ## Software licenses
+When in doubt generally with software licenses, consulting with a lawyer is appropriate.
 
 ### General Public License (GPL)
 If the GPL software is improved and released to the public, the altered source code must also be publically available under the GPL license. Organisations, companies or privately can use GPL software internally without ever releasing it to the public.
+
+If GPL software is used in an application that is available to the public, the application needs to be under GPL license.
 
 ### Lesser General Public License (LGPL)
 Developers and companies does not need to share their own source code when using non-modified LGPL software in their own software. However if the LGPL software is modified and publically distributed, the modified version needs to be under LGPL license aswell.

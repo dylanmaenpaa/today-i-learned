@@ -22,6 +22,10 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Single standalone binary](#single-standalone-binary)
 - [General](#general)
   * [Checksums](#checksums)
+- [Software licenses](#software-licenses)
+  * [General Public License (GPL)](#general-public-license--gpl-)
+  * [Lesser General Public License (LGPL)](#lesser-general-public-license--lgpl-)
+  * [MIT license](#mit-license)
   
 ## Unix
 
@@ -81,3 +85,14 @@ Knowledge that doesn't need an own subtitle yet.
 
 ### Checksums
 Small size data to verify if e.g. a file is not broken (which might happen during transmission or storage). A checksum function can be used, which can be like a hash function.
+
+## Software licenses
+
+### General Public License (GPL)
+If the GPL software is improved and released to the public, the altered source code must also be publically available under the GPL license. Organisations, companies or privately can use GPL software internally without ever releasing it to the public.
+
+### Lesser General Public License (LGPL)
+Developers and companies does not need to share their own source code when using non-modified LGPL software in their own software. However if the LGPL software is modified and publically distributed, the modified version needs to be under LGPL license aswell.
+
+### MIT license
+The MIT license is very permissive. Basically everything is allowed as long as you include the MIT copyright notice.

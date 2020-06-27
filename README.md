@@ -49,7 +49,7 @@ Why should one use Nginx?
 By removing unnecessary dependencies, the images can be much smaller in size and reduce security threats. Smaller size also might give faster builds. 
 
 ### Non-root user
-Run the docker daemon as non-root user to mitigate security risks. One risk is that if the user running the daemon root, malicious code might enable root access to the host machine.
+Run the docker daemon as non-root user to mitigate security risks. One risk is that if the user run the daemon as root, malicious code might enable root access to the host machine.
 
 ## Devops
 
@@ -65,7 +65,7 @@ Continous deployment brings an addition to continous delivery. The deployment is
 ## Build systems
 
 ### Cmake
-Cmake is a build system generator, it can generate e.g. Makefiles. It is a valuable tool since make files are OS dependent, by using Cmake native Makefiles can be generated.
+Cmake is a build system generator, it can generate for example Makefiles. It is a valuable tool since make files are OS dependent, by using Cmake native Makefiles can be generated.
 
 ### Makefiles
 Makefiles gives directives on how to compile and link files. It also keeps track on dependencies, thus when running Makefiles again, only neccessary build steps are made. This can greatly reduce the build time.

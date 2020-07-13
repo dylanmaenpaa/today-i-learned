@@ -27,6 +27,12 @@ Documenting things I have learned. In this document I strive to write down knowl
   * [Lesser General Public License (LGPL)](#lesser-general-public-license--lgpl-)
   * [MIT license](#mit-license)
   
+  
+## Git
+
+### Reset vs Revert
+Reset can be used to remove commits. E.g.: ``git reset HEAD~2`` will move the tip of the branch 2 commits backward. This will make the two latest commits orphaned, meaning that they will be removed in the next garbage collection. Revert is a more safer way of moving the tip of the branch backwards, it will not remove the commits, it will undo old commits with a new commit, thus saving the history.
+
 ## Unix
 
 ### Comparing files

@@ -1,5 +1,5 @@
 # Today I learned
-Documenting things I have learned. In this document I strive to write down knowledge in short and concise sentences.
+Documenting things I have learned in short and concise sentences.
 
 - [Today I learned](#today-i-learned)
   * [Git](#git)

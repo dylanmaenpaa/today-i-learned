@@ -119,7 +119,6 @@ A set of decision problems which can be verified in polynomial time.
 # NP-complete problems
 The set of all problems X in NP which all the problems in NP can be reduced to a problem in X in polynomial time. If a deterministic polynomial time algorithm can be found to solve one NP-complete problem, then every other NP problem is solvable in polynomial time.
 
-# NP-hard
+# NP-hard problems
 At least as hard as the hardest NP-complete problem. Problem X is NP-hard if every problem Y in NP can be reduced to X in polynomial time. If there is a solution to a NP-hard problem, then there is a solution to all NP-problems in polynomial time.
 
-# NP-hard problems

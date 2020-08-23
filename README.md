@@ -98,7 +98,7 @@ Knowledge that doesn't need an own subtitle yet.
 Small size data to verify if e.g. a file is not broken (which might happen during transmission or storage). A checksum function can be used, which can be like a hash function.
 
 ## Software licenses
-When in doubt generally with software licenses, consulting with a lawyer is appropriate.
+When in doubt with software licenses, consulting with a lawyer is appropriate.
 
 ### General Public License (GPL)
 If the GPL software is improved and released to the public, the altered source code must also be publically available under the GPL license. Organisations, companies or privately can use GPL software internally without ever releasing it to the public.

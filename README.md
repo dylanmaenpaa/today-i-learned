@@ -32,6 +32,11 @@ Documenting things I have learned in short and concise sentences.
   * [NP (nondeterministic polynomial time) problems](#np--nondeterministic-polynomial-time--problems)
   * [NP-complete problems](#np-complete-problems)
   * [NP-hard problems](#np-hard-problems)
+- [Search Algorithms](#search-algorithms)
+  * [A*](#a-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
   
 ## Git
 
@@ -125,3 +130,7 @@ The set of all problems X in NP which all the problems in NP can be reduced to a
 ### NP-hard problems
 At least as hard as the hardest NP-complete problem. Problem X is NP-hard if every problem Y in NP can be reduced to X in polynomial time. If there is a solution to a NP-hard problem, then there is a solution to all NP-problems in polynomial time.
 
+## Search Algorithms
+
+### A*
+Extension of Dijkstra with the use of heuristics. Optimality on a tree if the heurisitic is admissible. Consitent heuristic is needed on a graph if reopening closed nodes is not allowed. Complexity O(b^d) where b is the branching factor and d is the depth.

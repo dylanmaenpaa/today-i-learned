@@ -133,4 +133,4 @@ At least as hard as the hardest NP-complete problem. Problem X is NP-hard if eve
 ## Search Algorithms
 
 ### A*
-Extension of Dijkstra with the use of heuristics. Optimality is guaranteed on tree-search version of A* if the heurisitic is admissible. Consistent heuristic is needed on graph-version A* (reopening closed nodes is not allowed). Worst case complexity O(b^d) where b is the branching factor and d is the depth, however a good heuristic will prune the nodes needed for the search.
+Extension of Dijkstra with the use of heuristics. Optimality is guaranteed on tree-search version of A* if the heuristic is admissible. Consistent heuristic is needed on graph-version A* (reopening closed nodes is not allowed). Worst case complexity O(b^d) where b is the branching factor and d is the depth, however a good heuristic will prune the nodes needed for the search.

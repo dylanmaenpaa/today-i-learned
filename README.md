@@ -1,41 +1,42 @@
-# Today I learned
-Documenting things I have learned in short and concise sentences.
-
-- [Git](#git)
-  * [Reset vs Revert](#reset-vs-revert)
-- [Unix](#unix)
-  * [Comparing files](#comparing-files)
-- [Web development](#web-development)
-  * [Nginx](#nginx)
-- [Docker](#docker)
-  * [Alpine images](#alpine-images)
-  * [Non-root user](#non-root-user)
-- [Devops](#devops)
-  * [Continous integration](#continous-integration)
-  * [Continous delivery](#continous-delivery)
-  * [Continous deployment](#continous-deployment)
-- [Build systems](#build-systems)
-  * [Cmake](#cmake)
-  * [Makefiles](#makefiles)
-- [C/C++](#c-c--)
-  * [Portability between platforms](#portability-between-platforms)
-- [Go](#go)
-  * [Single standalone binary](#single-standalone-binary)
-- [General](#general)
-  * [Checksums](#checksums)
-- [Software licenses](#software-licenses)
-  * [General Public License (GPL)](#general-public-license--gpl-)
-  * [Lesser General Public License (LGPL)](#lesser-general-public-license--lgpl-)
-  * [MIT license](#mit-license)
-- [Complexity Theory](#complexity-theory)
-  * [P problems](#p-problems)
-  * [NP (nondeterministic polynomial time) problems](#np--nondeterministic-polynomial-time--problems)
-  * [NP-complete problems](#np-complete-problems)
-  * [NP-hard problems](#np-hard-problems)
-- [Search Algorithms](#search-algorithms)
-  * [A*](#a-)
+- [Today I learned](#today-i-learned)
+  * [Git](#git)
+    + [Reset vs Revert](#reset-vs-revert)
+  * [Unix](#unix)
+    + [Comparing files](#comparing-files)
+  * [Web development](#web-development)
+    + [Nginx](#nginx)
+  * [Docker](#docker)
+    + [Alpine images](#alpine-images)
+    + [Non-root user](#non-root-user)
+  * [Devops](#devops)
+    + [Continous integration](#continous-integration)
+    + [Continous delivery](#continous-delivery)
+    + [Continous deployment](#continous-deployment)
+  * [Build systems](#build-systems)
+    + [Cmake](#cmake)
+    + [Makefiles](#makefiles)
+  * [C/C++](#c-c--)
+    + [Portability between platforms](#portability-between-platforms)
+  * [Go](#go)
+    + [Single standalone binary](#single-standalone-binary)
+  * [General](#general)
+    + [Checksums](#checksums)
+  * [Software licenses](#software-licenses)
+    + [General Public License (GPL)](#general-public-license--gpl-)
+    + [Lesser General Public License (LGPL)](#lesser-general-public-license--lgpl-)
+    + [MIT license](#mit-license)
+  * [Complexity Theory](#complexity-theory)
+    + [P problems](#p-problems)
+    + [NP (nondeterministic polynomial time) problems](#np--nondeterministic-polynomial-time--problems)
+    + [NP-complete problems](#np-complete-problems)
+    + [NP-hard problems](#np-hard-problems)
+  * [Search Algorithms](#search-algorithms)
+    + [A*](#a-)
+  * [Machine Learning](#machine-learning)
+    + [Stochastic gradient descent](#stochastic-gradient-descent)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
   
 ## Git
@@ -134,3 +135,9 @@ At least as hard as the hardest NP-complete problem. Problem X is NP-hard if eve
 
 ### A*
 Extension of Dijkstra with the use of heuristics. Optimality is guaranteed on tree-search version of A* if the heuristic is admissible. Consistent heuristic is needed on graph-version A* (reopening closed nodes is not allowed). Worst case complexity O(b^d) where b is the branching factor and d is the depth, however a good heuristic will prune the nodes needed for the search.
+
+## Machine Learning
+
+### Stochastic gradient descent
+Instead of running all samples and calculating a gradient, stochastic gradient descent randomly chooses one sample to calculate a gradient.
+This can save time since summing up all the data points might take long time due to not fitting in RAM. It might also converge faster and jump out of local minimas.
